@@ -15,7 +15,7 @@
   <body>
     <div class="container main">
       <img src="https://i.imgur.com/Kna9Nb2.png">
-      <h1>Core Recruitment</h1> 
+      <h1>Batch'27 Recruitments</h1> 
         <form method="post">
             {% csrf_token %}
           <div  id="page1">
@@ -42,16 +42,16 @@
             
             
             <div class="form-floating mb-3">
-              <input type="text" class="form-control" id="7" placeholder="List your contributions so far?" name="q6"  required>
-              <label for="7">List your contributions so far?</label>
+              <input type="text" class="form-control" id="7" placeholder="How does your aim align with mission & values of VIRSA?" name="q6"  required>
+              <label for="7">How does your aim align with mission & values of VIRSA?</label>
             </div>
             <div class="form-floating mb-3">
               <input type="text" class="form-control" id="8" placeholder="Discuss any 2 event ideas you'll carry out in Virsa?" name="q7"  required>
               <label for="8">Discuss any 2 event ideas you'll carry out in Virsa?</label>
             </div>
             <div class="form-floating mb-3">
-              <input type="text" class="form-control" id="10" placeholder="Will you missyour classes for Virsa?" name="q8"  required>
-              <label for="1-">Can you miss your classes for Virsa?</label>
+              <input type="text" class="form-control" id="10" placeholder="What influenced you to be a part of VIRSA ?" name="q8"  required>
+              <label for="1-">What influenced you to be a part of VIRSA ?</label>
             </div>
             <div class="form-floating mb-3">
               
@@ -64,10 +64,11 @@
            </div>
             
            <button class="btn btn-primary l" type="button" id="nextBtn" onclick="prev1()">Previous</button>
-           <button class="btn btn-primary  r" type="button" id="nextBtn" onclick="next1()">Next</button>
+           <button type="submit" class="btn btn-primary r">Submit</button>
+           <!-- <button class="btn btn-primary  r" type="button" id="nextBtn" onclick="next1()">Next</button> -->
           </div>
           {% comment %} -------------------------------------------------------- {% endcomment %}
-          <div id="page3">
+          <!-- <div id="page3">
             
             <div class="form-floating mb-3">
               <p>On a scale of 5 , rate your contributions in the following Departments:</p>
@@ -174,7 +175,7 @@
             <div class="eme"><em >*make sure you have answered all the questions on all pages</em></div>
             <button class="btn btn-primary l" type="button" id="nextBtn" onclick="prevf()">Previous</button>
             <button type="submit" class="btn btn-primary r">Submit</button>
-          </div>
+          </div> -->
           </form>
 
     </div>
